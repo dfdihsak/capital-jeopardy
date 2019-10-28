@@ -1,4 +1,4 @@
-Play it here: http://www.capitaljeopardy.com/
+## Play it here: http://www.capitaljeopardy.com/
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
