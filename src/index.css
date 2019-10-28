@@ -5,9 +5,72 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  margin: auto;
+  max-width: 768px;
+  padding: 20px;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.title-img {
+  width: 50%;
+}
+
+/* css classes for the flipcard effect */
+
+.flip-card {
+  background-color: transparent;
+  height: 300px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+}
+
+.flip-card-back {
+  transform: rotateY(180deg);
+}
+
+.card-title {
+  min-height: 3rem;
+}
+
+
+.w-5 {
+  width: 5rem;
+}
+
+.text-small {
+  font-size: 75%;
+}
+
+
+.heart-button {
+  position: absolute;
+  left: -5px;
+  top: -5px;
 }
