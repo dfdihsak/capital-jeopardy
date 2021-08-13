@@ -1,4 +1,5 @@
 ## Play it [here](http://d2dngur77n50ud.cloudfront.net/)!
+Check the Javadocs.
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
