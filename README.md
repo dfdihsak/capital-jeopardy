@@ -1,4 +1,4 @@
-## Play it [here](http://d2dngur77n50ud.cloudfront.net/)!
+## Play it [here](http://d2dngur77n50ud.cloudfront.net/)! (this might not work if jService is down.)
 Check the Javadocs.
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
